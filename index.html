@@ -31,11 +31,9 @@
                 </div>
             </div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#tools">Tools</a></li>
-                <li><a href="#services">Services</a></li>
                 <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tools">Tools</a></li>
                 <li><a href="https://github.com/ccranking" target="_blank">GitHub</a></li>
             </ul>
         </div>
@@ -45,76 +43,94 @@
         <div class="container">
             <div class="hero-content">
                 <img src="logo.svg" alt="CCRank Performance Analytics" class="hero-logo">
-                <h2>Track, Analyze, and Optimize Your Claude Code Usage</h2>
+                <h2>Claude Code Analytics for Developers</h2>
                 <p class="hero-description">
-                    CCRank provides comprehensive tools for monitoring token consumption, cost analysis, 
-                    and usage patterns across all Claude models - helping developers make informed decisions 
-                    about their AI-powered development workflow.
+                    Open-source tools for tracking token usage and costs in Claude Code.
+                    Support our mission to make AI development more transparent and efficient.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#tools" class="btn btn-primary">Explore Tools</a>
+                    <a href="#sponsors" class="btn btn-primary">Become a Sponsor</a>
                     <a href="https://github.com/ccranking" class="btn btn-secondary" target="_blank">View on GitHub</a>
                 </div>
             </div>
             <div class="hero-stats">
                 <div class="stat-card">
-                    <h3>Real-time Tracking</h3>
-                    <p>Monitor token usage as you code</p>
+                    <h3>Open Source</h3>
+                    <p>MIT Licensed</p>
                 </div>
                 <div class="stat-card">
-                    <h3>Cost Analytics</h3>
-                    <p>Accurate pricing for all models</p>
+                    <h3>VSCode Extension</h3>
+                    <p>Available Now</p>
                 </div>
                 <div class="stat-card">
-                    <h3>Multi-Environment</h3>
-                    <p>Local, WSL, and Remote support</p>
+                    <h3>Community Driven</h3>
+                    <p>Your support matters</p>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="about" class="about">
+    <section id="sponsors" class="sponsors">
         <div class="container">
-            <h2>About CCRank Project</h2>
-            <div class="about-content">
-                <div class="about-main">
-                    <h3>Project Background</h3>
-                    <p>
-                        The CCRank project was born in the new era of AI-assisted development, with the goal of enabling developers 
-                        to accurately understand their Claude Code usage and optimize costs.
-                    </p>
-                    <p>
-                        We recognized that while Claude Code revolutionizes the development process, visualizing usage patterns 
-                        and costs remained a significant challenge for developers.
-                    </p>
-                    
-                    <h3>Mission</h3>
-                    <p>
-                        To provide comprehensive analytics tools and insights that enable developers to effectively utilize 
-                        AI tools and maximize their productivity.
-                    </p>
-                    
-                    <h3>Vision</h3>
-                    <p>
-                        To become the standard analytics platform for AI-assisted development, creating a future where 
-                        developers worldwide can leverage AI more efficiently.
-                    </p>
+            <h2>Become a Sponsor</h2>
+            <div class="sponsor-intro">
+                <p>
+                    The CCRank project is powered by the open source community. 
+                    Support our sustainable development through sponsorship and help us build better tools for everyone.
+                </p>
+            </div>
+            <div class="sponsor-tiers">
+                <div class="sponsor-tier bronze">
+                    <h3>🥉 Bronze Sponsor</h3>
+                    <p class="sponsor-price">$50/month</p>
+                    <ul>
+                        <li>Logo placement in README</li>
+                        <li>Monthly progress reports</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <a href="https://github.com/sponsors/ccranking" class="btn btn-small" onclick="gtag('event', 'click', { 'event_category': 'sponsor', 'event_label': 'bronze', 'value': 50 });">Become Bronze</a>
                 </div>
-                <div class="about-stats">
-                    <div class="about-stat">
-                        <h4>Open Source</h4>
-                        <p>All tools released under MIT License</p>
-                    </div>
-                    <div class="about-stat">
-                        <h4>Community Driven</h4>
-                        <p>Prioritizing developer feedback</p>
-                    </div>
-                    <div class="about-stat">
-                        <h4>Continuous Improvement</h4>
-                        <p>Regular updates and new features</p>
-                    </div>
+                <div class="sponsor-tier silver">
+                    <h3>🥈 Silver Sponsor</h3>
+                    <p class="sponsor-price">$250/month</p>
+                    <ul>
+                        <li>Logo placement on website</li>
+                        <li>Early access to new features</li>
+                        <li>Monthly meeting participation</li>
+                        <li>All Bronze benefits</li>
+                    </ul>
+                    <a href="https://github.com/sponsors/ccranking" class="btn btn-small" onclick="gtag('event', 'click', { 'event_category': 'sponsor', 'event_label': 'silver', 'value': 250 });">Become Silver</a>
+                </div>
+                <div class="sponsor-tier gold">
+                    <h3>🥇 Gold Sponsor</h3>
+                    <p class="sponsor-price">$1000/month</p>
+                    <ul>
+                        <li>Logo placement on homepage</li>
+                        <li>Priority feature requests</li>
+                        <li>Dedicated support channel</li>
+                        <li>All Silver benefits</li>
+                    </ul>
+                    <a href="https://github.com/sponsors/ccranking" class="btn btn-small btn-primary" onclick="gtag('event', 'click', { 'event_category': 'sponsor', 'event_label': 'gold', 'value': 1000 });">Become Gold</a>
                 </div>
             </div>
+            <div class="current-sponsors">
+                <h3>Current Sponsors</h3>
+                <p class="sponsor-note">Be the first to sponsor our project and help shape the future of AI-assisted development analytics!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About CCRank</h2>
+            <p>
+                CCRank provides open-source analytics tools for Claude Code, helping developers track token usage and optimize costs in AI-assisted development. 
+                Our VSCode extension offers real-time monitoring and comprehensive reporting for all Claude models.
+            </p>
+            <p>
+                As a community-driven project, we rely on sponsorships to maintain and improve our tools. 
+                Your support enables us to develop new features and provide better analytics for the entire developer community.
+            </p>
         </div>
     </section>
 
@@ -124,33 +140,23 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">📊</div>
-                    <h3>Comprehensive Analytics</h3>
-                    <p>Daily, monthly, and session-based reports with detailed breakdowns of token usage across all Claude models.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">💰</div>
-                    <h3>Cost Tracking</h3>
-                    <p>Accurate cost calculations for input, output, cache creation, and cache read tokens with real-time updates.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h3>Live Monitoring</h3>
-                    <p>Real-time tracking of active Claude Code conversations with automatic file watching and instant updates.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🌐</div>
-                    <h3>Multi-Environment Support</h3>
-                    <p>Seamless operation across Local, WSL, and Remote Container environments with automatic detection.</p>
+                    <h3>Real-time Analytics</h3>
+                    <p>Track token usage and costs instantly with comprehensive reports for all Claude models.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🔧</div>
                     <h3>VSCode Integration</h3>
-                    <p>Native extension bringing all analytics directly into your development environment with status bar integration.</p>
+                    <p>Native extension with status bar monitoring and interactive dashboards right in your IDE.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">📈</div>
-                    <h3>Usage Insights</h3>
-                    <p>Identify patterns, optimize prompts, and make data-driven decisions about your AI-assisted development.</p>
+                    <div class="feature-icon">💰</div>
+                    <h3>Cost Optimization</h3>
+                    <p>Accurate pricing calculations help you optimize usage and control AI development costs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Open Source</h3>
+                    <p>MIT licensed with transparent development. Your sponsorship keeps it free for everyone.</p>
                 </div>
             </div>
         </div>
