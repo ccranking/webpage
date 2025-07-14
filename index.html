@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CCRank - Comprehensive Claude Code usage tracking and analytics tools for developers">
+    <title>CCRank - Claude Code Usage Analytics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>CCRank</h1>
+                <span class="tagline">Claude Code Analytics Suite</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="https://github.com/ccranking" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Track, Analyze, and Optimize Your Claude Code Usage</h2>
+                <p class="hero-description">
+                    CCRank provides comprehensive tools for monitoring token consumption, cost analysis, 
+                    and usage patterns across all Claude models - helping developers make informed decisions 
+                    about their AI-powered development workflow.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#tools" class="btn btn-primary">Explore Tools</a>
+                    <a href="https://github.com/ccranking" class="btn btn-secondary" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <h3>Real-time Tracking</h3>
+                    <p>Monitor token usage as you code</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Cost Analytics</h3>
+                    <p>Accurate pricing for all models</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Multi-Environment</h3>
+                    <p>Local, WSL, and Remote support</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Comprehensive Analytics</h3>
+                    <p>Daily, monthly, and session-based reports with detailed breakdowns of token usage across all Claude models.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Cost Tracking</h3>
+                    <p>Accurate cost calculations for input, output, cache creation, and cache read tokens with real-time updates.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Live Monitoring</h3>
+                    <p>Real-time tracking of active Claude Code conversations with automatic file watching and instant updates.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Multi-Environment Support</h3>
+                    <p>Seamless operation across Local, WSL, and Remote Container environments with automatic detection.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>VSCode Integration</h3>
+                    <p>Native extension bringing all analytics directly into your development environment with status bar integration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Usage Insights</h3>
+                    <p>Identify patterns, optimize prompts, and make data-driven decisions about your AI-assisted development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2>Available Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>ccusage-ext</h3>
+                    <span class="tool-type">VSCode Extension</span>
+                    <p>A comprehensive VSCode extension that brings Claude Code usage tracking directly into your IDE. Features include real-time monitoring, cost analytics, and detailed reporting.</p>
+                    <ul>
+                        <li>Live token counting in status bar</li>
+                        <li>Interactive analytics dashboards</li>
+                        <li>Automatic conversation detection</li>
+                        <li>Multi-environment support</li>
+                    </ul>
+                    <div class="tool-links">
+                        <a href="https://github.com/aether-platform/ccusage-ext" class="btn btn-small">GitHub</a>
+                        <a href="https://marketplace.visualstudio.com/items?itemName=ccusage.ccusage-ext" class="btn btn-small btn-primary">VSCode Marketplace</a>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <h3>ccusage</h3>
+                    <span class="tool-type">CLI Tool</span>
+                    <p>The original command-line utility for analyzing Claude Code token usage from local JSONL files. Perfect for automation and scripting.</p>
+                    <ul>
+                        <li>Command-line interface</li>
+                        <li>Batch processing support</li>
+                        <li>Export to various formats</li>
+                        <li>Scriptable analytics</li>
+                    </ul>
+                    <div class="tool-links">
+                        <a href="https://github.com/aether-platform/ccusage" class="btn btn-small">GitHub</a>
+                        <a href="https://www.npmjs.com/package/ccusage" class="btn btn-small btn-primary">npm</a>
+                    </div>
+                </div>
+                <div class="tool-card coming-soon">
+                    <h3>ccrank-web</h3>
+                    <span class="tool-type">Web Dashboard</span>
+                    <p>A web-based dashboard for visualizing and analyzing Claude Code usage across teams and projects.</p>
+                    <ul>
+                        <li>Team analytics</li>
+                        <li>Project comparisons</li>
+                        <li>Usage trends</li>
+                        <li>Export capabilities</li>
+                    </ul>
+                    <div class="tool-links">
+                        <span class="coming-soon-label">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="installation" class="installation">
+        <div class="container">
+            <h2>Quick Start</h2>
+            <div class="install-options">
+                <div class="install-card">
+                    <h3>VSCode Extension</h3>
+                    <p>Install directly from VSCode:</p>
+                    <ol>
+                        <li>Open VSCode</li>
+                        <li>Go to Extensions (Ctrl+Shift+X)</li>
+                        <li>Search for "ccusage"</li>
+                        <li>Click Install</li>
+                    </ol>
+                    <p class="install-note">Or install from command line:</p>
+                    <pre><code>code --install-extension ccusage.ccusage-ext</code></pre>
+                </div>
+                <div class="install-card">
+                    <h3>CLI Tool</h3>
+                    <p>Install via npm:</p>
+                    <pre><code>npm install -g ccusage</code></pre>
+                    <p class="install-note">Basic usage:</p>
+                    <pre><code>ccusage analyze
+ccusage report --format json
+ccusage watch</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="models">
+        <div class="container">
+            <h2>Supported Claude Models</h2>
+            <div class="models-grid">
+                <div class="model-card">
+                    <h4>Claude 3.5 Opus</h4>
+                    <p>Most capable model</p>
+                </div>
+                <div class="model-card">
+                    <h4>Claude 3.5 Sonnet</h4>
+                    <p>Balanced performance</p>
+                </div>
+                <div class="model-card">
+                    <h4>Claude 3.5 Haiku</h4>
+                    <p>Fast and efficient</p>
+                </div>
+                <div class="model-card">
+                    <h4>Claude 3 Opus</h4>
+                    <p>Previous generation</p>
+                </div>
+            </div>
+            <p class="models-note">All models tracked with accurate pricing including cache usage</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CCRank</h4>
+                    <p>Comprehensive Claude Code usage tracking and analytics tools for developers.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/ccranking">GitHub Organization</a></li>
+                        <li><a href="https://github.com/aether-platform/ccusage-ext">ccusage-ext</a></li>
+                        <li><a href="https://github.com/aether-platform/ccusage">ccusage CLI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://docs.anthropic.com/claude/docs">Claude Documentation</a></li>
+                        <li><a href="https://github.com/ccranking/webpage">Contribute</a></li>
+                        <li><a href="https://github.com/ccranking/webpage/issues">Report Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CCRank. Part of the Aether Platform project family.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
