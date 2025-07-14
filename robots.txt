@@ -1,0 +1,18 @@
+# CCRank robots.txt
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ccranking.github.io/webpage/sitemap.xml
+
+# Crawl-delay (optional, for politeness)
+Crawl-delay: 1
+
+# Disallow temporary or development files
+Disallow: /convert-svg-to-png.html
+Disallow: /convert-svg-to-png.js
+Disallow: /*.log$
+Disallow: /temp/
+Disallow: /draft/
